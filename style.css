@@ -1,0 +1,144 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+    width: 90vw;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: rgba(15, 15, 17, 0.25) 0px 54px 55px, rgba(15, 15, 17, 0.12) 0px -12px 30px, rgba(15, 15, 17, 0.12) 0px 4px 6px, rgba(15, 15, 17, 0.17) 0px 12px 13px, rgba(15, 15, 17, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.preview {
+    background-image: url(nft-card/images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 80vw;
+    margin: 6% 0;
+    border-radius: 15px;
+    align-self: center;
+
+}
+
+.preview:hover {
+    background-image: url(nft-card/images/icon-view.svg), linear-gradient(hsla(178, 100%, 50%, 0.158),hsla(178, 100%, 50%, 0.158)), url(nft-card/images/image-equilibrium.jpg);
+    background-position: center, center, center;
+    background-size: 20%, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 80vw;
+    height: 80vw;
+    margin: 6% 0;
+    border-radius: 15px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.main{
+    margin: 0 6%;
+}
+.nft-title {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+     
+}
+
+.nft-title:hover {
+    color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 1em;
+    color:hsl(215, 51%, 70%);
+    margin-top: 6%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding: 5% 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin: 0 6%;
+}
+
+.info img {
+    margin-right: 8px;
+}
+
+.timestamp {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    }
+
+.signature {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin: 6%;
+}
+
+.author {
+    color:white;
+    text-decoration: none;
+}
+
+.author:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.avatar {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5vw;
+}
+
+@media (min-width: 400px) {
+    .card {
+        max-width: 380px;
+
+    }
+    
+    .preview {
+        max-width: 338px;
+        max-height: 338px;
+    }
+}
