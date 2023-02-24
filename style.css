@@ -31,7 +31,7 @@ body {
 }
 
 .preview {
-    background-image: url(/images/image-equilibrium.jpg);
+    background-image: url(nft-card/images/image-equilibrium.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body {
 }
 
 .preview:hover {
-    background-image: url(/images/icon-view.svg), linear-gradient(hsla(178, 100%, 50%, 0.158),hsla(178, 100%, 50%, 0.158)), url(/images/image-equilibrium.jpg);
+    background-image: url(nft-card/images/icon-view.svg), linear-gradient(hsla(178, 100%, 50%, 0.158),hsla(178, 100%, 50%, 0.158)), url(nft-card/images/image-equilibrium.jpg);
     background-position: center, center, center;
     background-size: 20%, cover, cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
